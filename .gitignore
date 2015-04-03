@@ -1,0 +1,36 @@
+public class Person{
+public:
+//variables
+string firstname="lusitha";
+string lastname="Perera";
+protected:
+//methods
+//constructor
+Person(){cout<<"Person object created"\n;}
+//destructor
+~Person(){cout<<"Person object deleted"\n;}
+protected string get_name(){
+  return firstname+lastname;
+  }
+}
+
+public class Student{
+public:
+//variable 
+string myname;
+//construtor
+Student(){"Student Object created"\n;}
+//destructor
+~Student(){"Student Object deleted"\n;}
+public string getstudentname(){
+  myname=Person *getname();
+  return myname;
+  }
+}
+
+
+public void main(){
+  string output;
+  output=Student *getstudentname();
+  cout<<output;
+}
