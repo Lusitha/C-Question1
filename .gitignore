@@ -14,7 +14,7 @@ protected string get_name(){
   }
 }
 
-public class Student{
+public class Student : Person{
 public:
 //variable 
 string myname;
